@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kpH0x+LiUKni95/fwvRKvOWUl2Fu16AsHFitnplc+7dEehH606nSO5R8h83kdK7NfpE+LPHTJ8u3c2bKEzvVbQ==",
+  "success": true,
+  "projectFilePath": "E:\\UMG\\semestre8\\Desarrollo-Web\\LabKendo\\LabKendo\\LabKendo\\LabKendo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\melga\\.nuget\\packages\\jquery\\1.9.1\\jquery.1.9.1.nupkg.sha512",
+    "C:\\Users\\melga\\.nuget\\packages\\kendouicore\\2022.3.1109\\kendouicore.2022.3.1109.nupkg.sha512"
+  ],
+  "logs": []
+}

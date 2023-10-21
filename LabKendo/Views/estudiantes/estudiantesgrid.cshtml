@@ -1,0 +1,27 @@
+﻿@page
+@model IEnumerable<Estudiante>
+
+@(Html.Kendo().Grid(Model)
+    .Name("estudiantesGrid")
+    .Columns(columns =>
+    {
+        columns.Bound(e => e.Nombre).Title("Nombre");
+        columns.Bound(e => e.Apellido).Title("Apellido");
+        columns.Bound(e => e.Celular).Title("Celular");
+        columns.Bound(e => e.Seccion).Title("Sección");
+        columns.Command(command => command.Edit()).Title("Acciones");
+    })
+    .ToolBar(toolbar => toolbar.Create())
+    .Editable(editable => editable.Mode(GridEditMode.InLine))
+    .Pageable()
+    .Sortable()
+    .Filterable()
+    .DataSource(dataSource => dataSource
+        .Ajax()
+        .Model(model => model.Id(e => e.Id))
+        .Read(read => read.Action("LeerEstudiantes", "Estudiantes"))
+        .Create(create => create.Action("CrearEstudiante", "Estudiantes"))
+        .Update(update => update.Action("ActualizarEstudiante", "Estudiantes"))
+        .Destroy(destroy => destroy.Action("EliminarEstudiante", "Estudiantes"))
+    )
+)

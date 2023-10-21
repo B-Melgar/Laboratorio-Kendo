@@ -1,0 +1,7 @@
+E:\UMG\semestre8\Desarrollo-Web\LabKendo\LabKendo\LabKendo\obj\Debug\net6.0\LabKendo.GeneratedMSBuildEditorConfig.editorconfig
+E:\UMG\semestre8\Desarrollo-Web\LabKendo\LabKendo\LabKendo\obj\Debug\net6.0\LabKendo.AssemblyInfoInputs.cache
+E:\UMG\semestre8\Desarrollo-Web\LabKendo\LabKendo\LabKendo\obj\Debug\net6.0\LabKendo.AssemblyInfo.cs
+E:\UMG\semestre8\Desarrollo-Web\LabKendo\LabKendo\LabKendo\obj\Debug\net6.0\LabKendo.csproj.CoreCompileInputs.cache
+E:\UMG\semestre8\Desarrollo-Web\LabKendo\LabKendo\LabKendo\obj\Debug\net6.0\LabKendo.MvcApplicationPartsAssemblyInfo.cache
+E:\UMG\semestre8\Desarrollo-Web\LabKendo\LabKendo\LabKendo\obj\Debug\net6.0\LabKendo.RazorAssemblyInfo.cache
+E:\UMG\semestre8\Desarrollo-Web\LabKendo\LabKendo\LabKendo\obj\Debug\net6.0\LabKendo.RazorAssemblyInfo.cs
